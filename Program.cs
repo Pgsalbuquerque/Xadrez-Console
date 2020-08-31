@@ -1,5 +1,5 @@
-﻿using Chess.board;
-using System;
+﻿using System;
+using board;
 
 namespace Chess
 {
@@ -7,7 +7,6 @@ namespace Chess
     {
         static void Main(string[] args)
         {
-            
         }
     }
 }
