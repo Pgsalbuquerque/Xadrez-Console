@@ -15,9 +15,9 @@ namespace Chess
                 board.insertPiece(new Rook(Color.BLACK, board), new Position(0, 0));
                 board.insertPiece(new Rook(Color.BLACK, board), new Position(0, 7));
                 board.insertPiece(new King(Color.BLACK, board), new Position(0, 4));
-                board.insertPiece(new Rook(Color.BLACK, board), new Position(7, 7));
-                board.insertPiece(new Rook(Color.BLACK, board), new Position(7, 0));
-                board.insertPiece(new King(Color.BLACK, board), new Position(7, 4));
+                board.insertPiece(new Rook(Color.WHITE, board), new Position(7, 7));
+                board.insertPiece(new Rook(Color.WHITE, board), new Position(7, 0));
+                board.insertPiece(new King(Color.WHITE, board), new Position(7, 4));
                   
                 Screen.printBoard(board);
             }
